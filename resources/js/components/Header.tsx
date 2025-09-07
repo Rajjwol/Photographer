@@ -2,7 +2,7 @@ import { Link } from '@inertiajs/react';
 
 export default function Header() {
   return (
-    <header className="border-b bg-white">
+    <header className="sticky top-0 z-50 border-b bg-white shadow-sm">
       <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
         <div className="font-bold text-xl text-gray-800">Portfolio</div>
